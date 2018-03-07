@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author             = { "shsanek" => "ssanek212@gmail.com" }
   s.source       = { :git => "https://github.com/shsanek/HRBasePod.git", :tag => "0.3.4" }
   s.source_files  = "HRBasePod", "HRBasePod/**/*.{h,m}"
-  s.resources = ["HRLog/**/*.storyboard"]
+#  s.resources = ["HRBasePod/**/*.storyboard","HRBasePod/**/*.xib"]
   s.public_header_files = "HRBasePod/**/*.h"
   s.homepage = "https://github.com/shsanek/HRBasePod";
   s.prefix_header_contents = '#import <HRBasePod/HRCore.h>'
